@@ -1,0 +1,73 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prop {
+    display: flex;
+    
+}
+.img-card:hover {
+    transition: transform 1.12s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    text-align: center;
+}
+.img-card {
+    background-color: aqua;
+    
+    text-align: center;
+   
+    
+}
+.photo {
+    height: 340px;
+}
+.left {
+    width: 700px;
+}
+.arrow{
+    max-width: 26px;
+    margin:  10px;
+}
+.cardbottom {
+    
+    display: flex;
+}
+.cardbottom:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.img-card {
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+}
+.heading{
+    
+    font-size: 60px;
+    cursor: pointer;
+    padding: 1px;
+}
+.heading:hover {
+    font-size: 60.5px;
+    
+}
+.content{
+    height: 40%;
+    font-size: 20px;
+}
+.hed{
+    font-size: 30px;
+    padding-left: 50px;
+}
+.nightmode{
+    margin: 40px;
+   padding: 10px;
+}
+.btn {
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
